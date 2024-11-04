@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "641542597812",
+    "project_id": "socialmediaasian",
+    "storage_bucket": "socialmediaasian.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641542597812:android:c864657b3e09f9ceca7be1",
+        "android_client_info": {
+          "package_name": "com.example.social_media"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTFXq6Zzx8Qc7ixPtwkMQCRYgfvfQIjOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

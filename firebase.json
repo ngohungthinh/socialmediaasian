@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "socialmediaasian",
+          "appId": "1:641542597812:android:c864657b3e09f9ceca7be1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "socialmediaasian",
+          "configurations": {
+            "android": "1:641542597812:android:c864657b3e09f9ceca7be1",
+            "ios": "1:641542597812:ios:6c56d189ad0c62a2ca7be1",
+            "web": "1:641542597812:web:3258560995d98d38ca7be1"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
